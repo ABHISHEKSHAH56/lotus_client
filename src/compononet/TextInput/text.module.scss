@@ -1,0 +1,54 @@
+.inputcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.inputlabel {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color:  #000000;
+  margin-top: 2px;
+}
+
+.textinput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.textinput:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+
+.textareacontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.textarealabel {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+
+.textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+.textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}

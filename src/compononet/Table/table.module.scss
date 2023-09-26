@@ -1,0 +1,44 @@
+
+
+.basecardwrapper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    border-radius: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+   
+    padding: 10px;
+    .cardtitle{
+        font-size: medium;
+        font-weight: bold;
+        color: rgb(235, 85, 39);
+    }
+    .carditemwrapper{
+        margin-top: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: 'row';
+        justify-content: space-between;
+
+    }
+
+}
+
+.tablecell{
+    
+        border:2px grey solid ;
+        padding:5px;
+    
+}
+.tablecellx{
+    
+    border:2px grey solid ;
+    padding:5px;
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: "blue" ;
+
+}

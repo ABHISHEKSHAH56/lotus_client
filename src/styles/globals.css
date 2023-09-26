@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headertitle{
+    color: #001044;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .headertitletag{
+  color: #676E83;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+ 
+  table {
+    border-collapse: collapse; /* This property makes borders collapse into a single border */
+    width: 100%;
+  }
+
+  
