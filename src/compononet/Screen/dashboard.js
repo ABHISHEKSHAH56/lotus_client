@@ -54,7 +54,7 @@ export default function Dashboard() {
       await getAllContacts();
       toast.success("Created Successfully!!");
     } catch (err) {
-      toast.error("Not able to create");
+      toast.error("Not able to create a contact");
     }
   };
 
@@ -65,7 +65,7 @@ export default function Dashboard() {
       await getAllContacts();
       toast.success("Updated Successfully!!");
     } catch (err) {
-      toast.error("Not able to Update");
+      toast.error("Not able to Update contact");
     }
   };
   
@@ -78,7 +78,7 @@ export default function Dashboard() {
       setCurrentId(null)
       
       toast.success("Deleted Successfully!!")
-    }).catch((err)=>toast.error("Not able to delete"))
+    }).catch((err)=>toast.error("Not able to delete contact"))
   }
 
   return (
