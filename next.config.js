@@ -6,7 +6,7 @@ const nextConfig = {
 
 module.exports = {
   env: {
-    BACKEND_URL: "http://localhost:4000/api/v1/",
+    BACKEND_URL: "http://64.227.152.24/api/v1/",
   },
   nextConfig,
 };
